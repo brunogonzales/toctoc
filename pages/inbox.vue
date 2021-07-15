@@ -1,0 +1,7 @@
+<template>
+	<div>
+		<nuxt-link to="/" class="font-bold">back to home</nuxt-link>
+		<p>inbox</p>
+	</div>
+</template>
+		

@@ -33,6 +33,10 @@ export default {
     '@nuxtjs/tailwindcss',
   ],
 
+	tailwindcss: {
+        mode: 'jit'
+    },
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
 		'@nuxt/content'

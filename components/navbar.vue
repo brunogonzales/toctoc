@@ -1,6 +1,6 @@
 <template>
-		<nav class="absolute bottom-0 left-0 flex justify-between self-end">
-			<nuxt-link class="relative block px-4 py-2" v-for="link in links" :to="link.path">{{link.name}}</nuxt-link>
+		<nav class="absolute bottom-0 left-0 w-full flex justify-between self-end">
+			<nuxt-link :key="link.name" class="relative block px-4 py-2" v-for="link in links" :to="link.path">{{link.name}}</nuxt-link>
 		</nav>
 </template>
 <script>

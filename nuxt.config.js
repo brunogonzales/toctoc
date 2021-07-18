@@ -39,9 +39,15 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-		'@nuxt/content'
+		'@nuxt/content',
+		'@nuxtjs/cloudinary'
   ],
 
+	cloudinary : {
+		cloudName: "vr1",
+		apiKey: process.env.CLOUDINARY_API_KEY,
+		apiSecret: process.env.CLOUDINARY_API_SECRET
+	},
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
